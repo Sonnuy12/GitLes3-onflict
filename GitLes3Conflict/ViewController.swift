@@ -9,14 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var forConflict: String = "Это main ветка тут"
+    var forConflict: String = "Решил конфликт"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
-        title = forConflict
+        view.backgroundColor = .cyan
     }
-
-
 }
 
+_
